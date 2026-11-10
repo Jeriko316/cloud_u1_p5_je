@@ -1,0 +1,21 @@
+# Terraform: directorio de plugins y proveedores
+.terraform/
+
+# Terraform: archivos de estado
+*.tfstate
+*.tfstate.*
+
+# Terraform: archivos de variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Terraform: archivos de configuración local
+*.terraformrc
+terraform.rc
+
+# Terraform: archivos de crash
+crash.log
+crash.*.log
+
+# Credenciales AWS
+.aws/
